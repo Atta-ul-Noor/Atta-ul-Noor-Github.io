@@ -12,10 +12,11 @@ Python
 Numpy  
 Java   
 MySql  
+jQuery  
 Github   
 CSS3  
 HTML5  
 Bootstrap  
 Tailwind CSS  
 Javascript  
-Arduino  
+Arduino IDE  
