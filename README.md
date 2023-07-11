@@ -1,5 +1,3 @@
-# DevAttaulNoor/README.md  
-  
 # About Me 👨‍💻 :  
 Hi Guys my name is Atta ul Noor and I am a Front-End Web Developer and a Pythonista.  
 I also have some knowledge regarding Java Front-End development (Swing/AWT/JavaFx).  
