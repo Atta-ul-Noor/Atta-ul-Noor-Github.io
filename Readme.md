@@ -3,7 +3,6 @@ Hi Guys my name is Atta ul Noor and I am a front-end web developer whose a profe
 
 # Languages and Tools 🛠️ :
 - Python 
-- Java
 - Javascript
 - HTML
 - CSS
@@ -11,3 +10,4 @@ Hi Guys my name is Atta ul Noor and I am a front-end web developer whose a profe
 - Tailwind
 - Aurdino IDE
 - Git
+- Firebase
