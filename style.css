@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html{
+    background-image: url("./Image/download.jpg");
+    height: 90vh;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #344356; 
+}
+
+/* Utility CSS */
+.bg-color{
+    background-color: #1d283a
+}
+
+.bg-color-blk{
+    background-color: black;
+}
+
+.color-white{
+    color: white;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+/* Main CSS */
+.intro-text{
+    color: black;
+    font-size: 3rem;
+    margin: 25px 0;
+}
+
+.container-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.container{
+    padding: 30px 50px;
+}
+
+.input{
+    font-size: 35px;
+    height: 30px;
+    width: 15rem;
+    margin: 13px 0;
+    padding: 10px;
+    border: 3px solid #344356;
+    text-align: right;
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    margin: 5px 2px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    background-color: #344356;
+    border: none;
+}
+
+.bigger{
+    width: 128px;
+}
+
+textarea{
+    height: 365px;
+    width: 250px;
+    border: 1px solid #344356;
+    resize: none;
+    font-size: 12px;
+    padding: 10px;
+    margin: 25px 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.history-box h3{
+    margin: 20px 0 0;
+    /* padding: 18px 20px; */
+}

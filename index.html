@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1 class="intro-text poppins txt-center">Calculate Me!</h1>
+    <div class="container-box poppins txt-center color-white">   
+        <div class="container bg-color">
+            <input type="text" class="input poppins color-white bg-color" readonly placeholder="0">
+            <div class="rows">
+                <button class="button">AC</button>
+                <button class="button">C</button>
+                <button class="button">%</button>
+                <button class="button">/</button>
+            </div>
+            <div class="rows">
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button">*</button>
+            </div>
+            <div class="rows">
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button">-</button>
+            </div>
+            <div class="rows">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">+</button>
+            </div>
+            <div class="rows">
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button bigger">=</button>
+            </div>
+        </div>
+        <div class="history-box bg-color-blk">
+            <h3>Recent Calculations</h3>
+            <textarea id="history" class="color-white poppins bg-color-blk" readonly></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
