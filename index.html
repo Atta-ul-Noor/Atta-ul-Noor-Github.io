@@ -10,43 +10,47 @@
 </head>
 
 <body>
-    <h1 class="intro-text poppins txt-center">Calculate Me!</h1>
-    <div class="container-box poppins txt-center color-white">   
-        <div class="container bg-color">
-            <input type="text" class="input poppins color-white bg-color" readonly placeholder="0">
-            <div class="rows">
-                <button class="button">AC</button>
-                <button class="button">C</button>
-                <button class="button">%</button>
-                <button class="button">/</button>
+    <div class="main">
+        <h1 id="intro">Calculate Me!</h1>
+        
+        <div class="calculator">
+            <div class="calculatorLeft">
+                <input type="text" placeholder="0" readonly>
+                <div class="rows">
+                    <button>AC</button>
+                    <button>C</button>
+                    <button>%</button>
+                    <button>/</button>
+                </div>
+                <div class="rows">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>*</button>
+                </div>
+                <div class="rows">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>-</button>
+                </div>
+                <div class="rows">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>+</button>
+                </div>
+                <div class="rows">
+                    <button>0</button>
+                    <button>.</button>
+                    <button class="bigger">=</button>
+                </div>
             </div>
-            <div class="rows">
-                <button class="button">7</button>
-                <button class="button">8</button>
-                <button class="button">9</button>
-                <button class="button">*</button>
+
+            <div class="calculatorRight">
+                <h3>Recent Calculations</h3>
+                <textarea id="history" readonly></textarea>
             </div>
-            <div class="rows">
-                <button class="button">4</button>
-                <button class="button">5</button>
-                <button class="button">6</button>
-                <button class="button">-</button>
-            </div>
-            <div class="rows">
-                <button class="button">1</button>
-                <button class="button">2</button>
-                <button class="button">3</button>
-                <button class="button">+</button>
-            </div>
-            <div class="rows">
-                <button class="button">0</button>
-                <button class="button">.</button>
-                <button class="button bigger">=</button>
-            </div>
-        </div>
-        <div class="history-box bg-color-blk">
-            <h3>Recent Calculations</h3>
-            <textarea id="history" class="color-white poppins bg-color-blk" readonly></textarea>
         </div>
     </div>
 
