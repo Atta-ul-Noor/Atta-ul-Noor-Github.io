@@ -1,7 +1,5 @@
 # Introduction
-This is a simple calculator project created using HTML, CSS, and JavaScript.
-
-Link to use the app: 
+This is a simple calculator that can be used to calculate simple mathematics. It is created using HTML, CSS, and JavaScript.
 
 # Getting Started
 To run the website locally on your machine, follow these steps.
