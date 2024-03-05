@@ -2,7 +2,6 @@ let string = '';
 let history = [];
 let resultDisplayed = false;
 let historyCounter = 1;
-
 let buttons = document.querySelectorAll('button');
 
 Array.from(buttons).forEach((button) => {
@@ -21,7 +20,7 @@ Array.from(buttons).forEach((button) => {
                     history.push(calculationHistoryEntry);
 
                     historyCounter++;
-                    document.getElementById("history").value = history.join("\n");
+                    document.getElementById("history").value = history.join("\n\n");
                     resultDisplayed = true;
                 }
             } 
@@ -42,11 +41,13 @@ Array.from(buttons).forEach((button) => {
                     string = '';
                     resultDisplayed = false;
                 }
-
+            
                 string = string + e.target.innerHTML;
-                document.querySelector('input').value = string;
+                const inputElement = document.querySelector('input');
+                inputElement.value = string;
+                inputElement.scrollLeft = inputElement.scrollWidth;
             }
-        } 
+        }
         
         catch (error) {
             if (e.target.innerHTML == '=') {
