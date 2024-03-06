@@ -1,5 +1,7 @@
 # Introduction
-This is a simple calculator that can be used to calculate simple mathematics. It is created using HTML, CSS, and JavaScript.
+This is a simple calculator that can be used to calculate simple math related problems. It is created using HTML, CSS, and JavaScript.
+
+Link to visit the website: https://devattaulnoor.github.io/Calculator/
 
 # Getting Started
 To run the website locally on your machine, follow these steps.
